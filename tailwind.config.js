@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {  colors:{
+      'green': '#008000',
+    },
+    fontFamily :{
+      vazir: ["vazir"],
+      Vazirtitr: ["Vazirtitr"],
+      vazirmedium: ["vazirmedium"],
+    }},
   },
   plugins: [],
 }
