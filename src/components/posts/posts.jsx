@@ -17,10 +17,7 @@ function Posts() {
     });
   }, []);
 
-  // function showPost(id) {
-  //   // console.log('Click Shod!!!!')
-  //   window.location.href = "/post/" + id;
-  // }
+
   if (!posts) return console.log("Not Posts in page ....!!!?");
   return (
     <section className="text-gray-600 body-font">
